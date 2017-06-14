@@ -7,20 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4212B391EF19E3C007F2CD9 /* AsyncOperationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4212B371EF19E3C007F2CD9 /* AsyncOperationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4212B4D1EF19E76007F2CD9 /* AsyncOperationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4212B441EF19E76007F2CD9 /* AsyncOperationKit.framework */; };
+		D4212B521EF19E76007F2CD9 /* AsyncOperationKit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B511EF19E76007F2CD9 /* AsyncOperationKit_iOSTests.swift */; };
+		D4212B541EF19E76007F2CD9 /* AsyncOperationKit-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D4212B461EF19E76007F2CD9 /* AsyncOperationKit-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4212B721EF19EBA007F2CD9 /* ConditionEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B5E1EF19EBA007F2CD9 /* ConditionEvaluator.swift */; };
+		D4212B731EF19EBB007F2CD9 /* ConditionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B5F1EF19EBA007F2CD9 /* ConditionResult.swift */; };
+		D4212B741EF19EBB007F2CD9 /* OperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B601EF19EBA007F2CD9 /* OperationCondition.swift */; };
+		D4212B751EF19EBB007F2CD9 /* OperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B611EF19EBA007F2CD9 /* OperationError.swift */; };
+		D4212B761EF19EBB007F2CD9 /* AsyncOperationObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B631EF19EBA007F2CD9 /* AsyncOperationObserving.swift */; };
+		D4212B771EF19EBB007F2CD9 /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B641EF19EBA007F2CD9 /* BlockObserver.swift */; };
+		D4212B781EF19EBB007F2CD9 /* TimeoutObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B651EF19EBA007F2CD9 /* TimeoutObserver.swift */; };
+		D4212B791EF19EBB007F2CD9 /* AsyncOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B671EF19EBA007F2CD9 /* AsyncOperationQueue.swift */; };
+		D4212B7A1EF19EBB007F2CD9 /* ExclusivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B681EF19EBA007F2CD9 /* ExclusivityController.swift */; };
+		D4212B7B1EF19EBB007F2CD9 /* AsyncBlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B6A1EF19EBA007F2CD9 /* AsyncBlockOperation.swift */; };
+		D4212B7C1EF19EBB007F2CD9 /* AsyncGroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B6B1EF19EBA007F2CD9 /* AsyncGroupOperation.swift */; };
+		D4212B7D1EF19EBB007F2CD9 /* AsyncOperation+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B6C1EF19EBA007F2CD9 /* AsyncOperation+State.swift */; };
+		D4212B7E1EF19EBB007F2CD9 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B6D1EF19EBA007F2CD9 /* AsyncOperation.swift */; };
+		D4212B7F1EF19EBB007F2CD9 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B6F1EF19EBA007F2CD9 /* Dictionary.swift */; };
+		D4212B801EF19EBB007F2CD9 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B701EF19EBA007F2CD9 /* Lock.swift */; };
+		D4212B811EF19EBB007F2CD9 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212B711EF19EBA007F2CD9 /* Operation.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D4212B4E1EF19E76007F2CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4212B2B1EF19E3C007F2CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4212B431EF19E76007F2CD9;
+			remoteInfo = "AsyncOperationKit-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		D4212B341EF19E3C007F2CD9 /* AsyncOperationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncOperationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4212B371EF19E3C007F2CD9 /* AsyncOperationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncOperationKit.h; sourceTree = "<group>"; };
-		D4212B381EF19E3C007F2CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4212B441EF19E76007F2CD9 /* AsyncOperationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncOperationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4212B461EF19E76007F2CD9 /* AsyncOperationKit-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsyncOperationKit-iOS.h"; sourceTree = "<group>"; };
+		D4212B471EF19E76007F2CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4212B4C1EF19E76007F2CD9 /* AsyncOperationKit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncOperationKit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4212B511EF19E76007F2CD9 /* AsyncOperationKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperationKit_iOSTests.swift; sourceTree = "<group>"; };
+		D4212B531EF19E76007F2CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4212B5E1EF19EBA007F2CD9 /* ConditionEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionEvaluator.swift; sourceTree = "<group>"; };
+		D4212B5F1EF19EBA007F2CD9 /* ConditionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionResult.swift; sourceTree = "<group>"; };
+		D4212B601EF19EBA007F2CD9 /* OperationCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationCondition.swift; sourceTree = "<group>"; };
+		D4212B611EF19EBA007F2CD9 /* OperationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationError.swift; sourceTree = "<group>"; };
+		D4212B631EF19EBA007F2CD9 /* AsyncOperationObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperationObserving.swift; sourceTree = "<group>"; };
+		D4212B641EF19EBA007F2CD9 /* BlockObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockObserver.swift; sourceTree = "<group>"; };
+		D4212B651EF19EBA007F2CD9 /* TimeoutObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeoutObserver.swift; sourceTree = "<group>"; };
+		D4212B671EF19EBA007F2CD9 /* AsyncOperationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperationQueue.swift; sourceTree = "<group>"; };
+		D4212B681EF19EBA007F2CD9 /* ExclusivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusivityController.swift; sourceTree = "<group>"; };
+		D4212B6A1EF19EBA007F2CD9 /* AsyncBlockOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncBlockOperation.swift; sourceTree = "<group>"; };
+		D4212B6B1EF19EBA007F2CD9 /* AsyncGroupOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncGroupOperation.swift; sourceTree = "<group>"; };
+		D4212B6C1EF19EBA007F2CD9 /* AsyncOperation+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AsyncOperation+State.swift"; sourceTree = "<group>"; };
+		D4212B6D1EF19EBA007F2CD9 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		D4212B6F1EF19EBA007F2CD9 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		D4212B701EF19EBA007F2CD9 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		D4212B711EF19EBA007F2CD9 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4212B301EF19E3C007F2CD9 /* Frameworks */ = {
+		D4212B401EF19E76007F2CD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4212B491EF19E76007F2CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4212B4D1EF19E76007F2CD9 /* AsyncOperationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +85,9 @@
 		D4212B2A1EF19E3C007F2CD9 = {
 			isa = PBXGroup;
 			children = (
-				D4212B361EF19E3C007F2CD9 /* AsyncOperationKit */,
+				D4212B5B1EF19EBA007F2CD9 /* Sources */,
+				D4212B451EF19E76007F2CD9 /* AsyncOperationKit-iOS */,
+				D4212B501EF19E76007F2CD9 /* AsyncOperationKit-iOSTests */,
 				D4212B351EF19E3C007F2CD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,51 +95,150 @@
 		D4212B351EF19E3C007F2CD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4212B341EF19E3C007F2CD9 /* AsyncOperationKit.framework */,
+				D4212B441EF19E76007F2CD9 /* AsyncOperationKit.framework */,
+				D4212B4C1EF19E76007F2CD9 /* AsyncOperationKit-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4212B361EF19E3C007F2CD9 /* AsyncOperationKit */ = {
+		D4212B451EF19E76007F2CD9 /* AsyncOperationKit-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D4212B371EF19E3C007F2CD9 /* AsyncOperationKit.h */,
-				D4212B381EF19E3C007F2CD9 /* Info.plist */,
+				D4212B461EF19E76007F2CD9 /* AsyncOperationKit-iOS.h */,
+				D4212B471EF19E76007F2CD9 /* Info.plist */,
 			);
-			path = AsyncOperationKit;
+			path = "AsyncOperationKit-iOS";
+			sourceTree = "<group>";
+		};
+		D4212B501EF19E76007F2CD9 /* AsyncOperationKit-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B511EF19E76007F2CD9 /* AsyncOperationKit_iOSTests.swift */,
+				D4212B531EF19E76007F2CD9 /* Info.plist */,
+			);
+			path = "AsyncOperationKit-iOSTests";
+			sourceTree = "<group>";
+		};
+		D4212B5B1EF19EBA007F2CD9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B5C1EF19EBA007F2CD9 /* AsyncOperation */,
+				D4212B6E1EF19EBA007F2CD9 /* Convenience Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D4212B5C1EF19EBA007F2CD9 /* AsyncOperation */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B5D1EF19EBA007F2CD9 /* Conditions */,
+				D4212B621EF19EBA007F2CD9 /* Observers */,
+				D4212B661EF19EBA007F2CD9 /* Operation Queue */,
+				D4212B691EF19EBA007F2CD9 /* Operations */,
+			);
+			path = AsyncOperation;
+			sourceTree = "<group>";
+		};
+		D4212B5D1EF19EBA007F2CD9 /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B5E1EF19EBA007F2CD9 /* ConditionEvaluator.swift */,
+				D4212B5F1EF19EBA007F2CD9 /* ConditionResult.swift */,
+				D4212B601EF19EBA007F2CD9 /* OperationCondition.swift */,
+				D4212B611EF19EBA007F2CD9 /* OperationError.swift */,
+			);
+			path = Conditions;
+			sourceTree = "<group>";
+		};
+		D4212B621EF19EBA007F2CD9 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B631EF19EBA007F2CD9 /* AsyncOperationObserving.swift */,
+				D4212B641EF19EBA007F2CD9 /* BlockObserver.swift */,
+				D4212B651EF19EBA007F2CD9 /* TimeoutObserver.swift */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		D4212B661EF19EBA007F2CD9 /* Operation Queue */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B671EF19EBA007F2CD9 /* AsyncOperationQueue.swift */,
+				D4212B681EF19EBA007F2CD9 /* ExclusivityController.swift */,
+			);
+			path = "Operation Queue";
+			sourceTree = "<group>";
+		};
+		D4212B691EF19EBA007F2CD9 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B6A1EF19EBA007F2CD9 /* AsyncBlockOperation.swift */,
+				D4212B6B1EF19EBA007F2CD9 /* AsyncGroupOperation.swift */,
+				D4212B6C1EF19EBA007F2CD9 /* AsyncOperation+State.swift */,
+				D4212B6D1EF19EBA007F2CD9 /* AsyncOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		D4212B6E1EF19EBA007F2CD9 /* Convenience Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4212B6F1EF19EBA007F2CD9 /* Dictionary.swift */,
+				D4212B701EF19EBA007F2CD9 /* Lock.swift */,
+				D4212B711EF19EBA007F2CD9 /* Operation.swift */,
+			);
+			path = "Convenience Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D4212B311EF19E3C007F2CD9 /* Headers */ = {
+		D4212B411EF19E76007F2CD9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4212B391EF19E3C007F2CD9 /* AsyncOperationKit.h in Headers */,
+				D4212B541EF19E76007F2CD9 /* AsyncOperationKit-iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D4212B331EF19E3C007F2CD9 /* AsyncOperationKit */ = {
+		D4212B431EF19E76007F2CD9 /* AsyncOperationKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4212B3C1EF19E3C007F2CD9 /* Build configuration list for PBXNativeTarget "AsyncOperationKit" */;
+			buildConfigurationList = D4212B551EF19E76007F2CD9 /* Build configuration list for PBXNativeTarget "AsyncOperationKit-iOS" */;
 			buildPhases = (
-				D4212B2F1EF19E3C007F2CD9 /* Sources */,
-				D4212B301EF19E3C007F2CD9 /* Frameworks */,
-				D4212B311EF19E3C007F2CD9 /* Headers */,
-				D4212B321EF19E3C007F2CD9 /* Resources */,
+				D4212B3F1EF19E76007F2CD9 /* Sources */,
+				D4212B401EF19E76007F2CD9 /* Frameworks */,
+				D4212B411EF19E76007F2CD9 /* Headers */,
+				D4212B421EF19E76007F2CD9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AsyncOperationKit;
-			productName = AsyncOperationKit;
-			productReference = D4212B341EF19E3C007F2CD9 /* AsyncOperationKit.framework */;
+			name = "AsyncOperationKit-iOS";
+			productName = "AsyncOperationKit-iOS";
+			productReference = D4212B441EF19E76007F2CD9 /* AsyncOperationKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D4212B4B1EF19E76007F2CD9 /* AsyncOperationKit-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4212B581EF19E76007F2CD9 /* Build configuration list for PBXNativeTarget "AsyncOperationKit-iOSTests" */;
+			buildPhases = (
+				D4212B481EF19E76007F2CD9 /* Sources */,
+				D4212B491EF19E76007F2CD9 /* Frameworks */,
+				D4212B4A1EF19E76007F2CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4212B4F1EF19E76007F2CD9 /* PBXTargetDependency */,
+			);
+			name = "AsyncOperationKit-iOSTests";
+			productName = "AsyncOperationKit-iOSTests";
+			productReference = D4212B4C1EF19E76007F2CD9 /* AsyncOperationKit-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,10 +246,16 @@
 		D4212B2B1EF19E3C007F2CD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Zhu Shengqi";
 				TargetAttributes = {
-					D4212B331EF19E3C007F2CD9 = {
+					D4212B431EF19E76007F2CD9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DHNJ8N28ZZ;
+						ProvisioningStyle = Automatic;
+					};
+					D4212B4B1EF19E76007F2CD9 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = DHNJ8N28ZZ;
 						ProvisioningStyle = Automatic;
@@ -112,13 +274,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4212B331EF19E3C007F2CD9 /* AsyncOperationKit */,
+				D4212B431EF19E76007F2CD9 /* AsyncOperationKit-iOS */,
+				D4212B4B1EF19E76007F2CD9 /* AsyncOperationKit-iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D4212B321EF19E3C007F2CD9 /* Resources */ = {
+		D4212B421EF19E76007F2CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4212B4A1EF19E76007F2CD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,14 +298,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4212B2F1EF19E3C007F2CD9 /* Sources */ = {
+		D4212B3F1EF19E76007F2CD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4212B7D1EF19EBB007F2CD9 /* AsyncOperation+State.swift in Sources */,
+				D4212B801EF19EBB007F2CD9 /* Lock.swift in Sources */,
+				D4212B7E1EF19EBB007F2CD9 /* AsyncOperation.swift in Sources */,
+				D4212B7B1EF19EBB007F2CD9 /* AsyncBlockOperation.swift in Sources */,
+				D4212B791EF19EBB007F2CD9 /* AsyncOperationQueue.swift in Sources */,
+				D4212B7A1EF19EBB007F2CD9 /* ExclusivityController.swift in Sources */,
+				D4212B7C1EF19EBB007F2CD9 /* AsyncGroupOperation.swift in Sources */,
+				D4212B731EF19EBB007F2CD9 /* ConditionResult.swift in Sources */,
+				D4212B761EF19EBB007F2CD9 /* AsyncOperationObserving.swift in Sources */,
+				D4212B721EF19EBA007F2CD9 /* ConditionEvaluator.swift in Sources */,
+				D4212B751EF19EBB007F2CD9 /* OperationError.swift in Sources */,
+				D4212B811EF19EBB007F2CD9 /* Operation.swift in Sources */,
+				D4212B741EF19EBB007F2CD9 /* OperationCondition.swift in Sources */,
+				D4212B7F1EF19EBB007F2CD9 /* Dictionary.swift in Sources */,
+				D4212B781EF19EBB007F2CD9 /* TimeoutObserver.swift in Sources */,
+				D4212B771EF19EBB007F2CD9 /* BlockObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4212B481EF19E76007F2CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4212B521EF19E76007F2CD9 /* AsyncOperationKit_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4212B4F1EF19E76007F2CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4212B431EF19E76007F2CD9 /* AsyncOperationKit-iOS */;
+			targetProxy = D4212B4E1EF19E76007F2CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D4212B3A1EF19E3C007F2CD9 /* Debug */ = {
@@ -239,7 +441,7 @@
 			};
 			name = Release;
 		};
-		D4212B3D1EF19E3C007F2CD9 /* Debug */ = {
+		D4212B561EF19E76007F2CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -248,17 +450,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AsyncOperationKit/Info.plist;
+				INFOPLIST_FILE = "AsyncOperationKit-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.AsyncOperationKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zetasq.AsyncOperationKit-iOS";
+				PRODUCT_NAME = AsyncOperationKit;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		D4212B3E1EF19E3C007F2CD9 /* Release */ = {
+		D4212B571EF19E76007F2CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -267,12 +469,38 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AsyncOperationKit/Info.plist;
+				INFOPLIST_FILE = "AsyncOperationKit-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.AsyncOperationKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zetasq.AsyncOperationKit-iOS";
+				PRODUCT_NAME = AsyncOperationKit;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D4212B591EF19E76007F2CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				INFOPLIST_FILE = "AsyncOperationKit-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zetasq.AsyncOperationKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D4212B5A1EF19E76007F2CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				INFOPLIST_FILE = "AsyncOperationKit-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zetasq.AsyncOperationKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -289,11 +517,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4212B3C1EF19E3C007F2CD9 /* Build configuration list for PBXNativeTarget "AsyncOperationKit" */ = {
+		D4212B551EF19E76007F2CD9 /* Build configuration list for PBXNativeTarget "AsyncOperationKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4212B3D1EF19E3C007F2CD9 /* Debug */,
-				D4212B3E1EF19E3C007F2CD9 /* Release */,
+				D4212B561EF19E76007F2CD9 /* Debug */,
+				D4212B571EF19E76007F2CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4212B581EF19E76007F2CD9 /* Build configuration list for PBXNativeTarget "AsyncOperationKit-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4212B591EF19E76007F2CD9 /* Debug */,
+				D4212B5A1EF19E76007F2CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
